@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header > div{
+    background-color: rgb(8, 148, 113);
+    display: flex;
+  
+}
+
+
+.menu{
+    padding-left: 100px;
+    display: flex;
+    flex: auto;
+    text-decoration: none;
+    color: white;
+}
+
+
+.capa {
+    margin-left: 80px ;
+    background-color: white;
+    padding: 20px;
+    
+    }
+
+.CapacityBay:link{
+        color:  rgb(8, 148, 113);
+    }
+
+.about{
+    margin-left: 80px ;
+    padding: 20px;
+    color: white;
+   
+}
+
+.work{
+    margin-left: 40px ;
+    padding: 20px;
+    color: white;
+   
+}
+
+.contacts{
+    margin-left: 40px ;
+    padding: 20px;
+    color: white;
+   
+   
+}
+
+a:link{
+    color:aliceblue;
+    text-decoration: none;
+    text-decoration-style: none;
+
+}
+
+main{
+    background-image: url(image/pexels-pixabay-270348.jpg);
+    height: 800px;
+    width: auto;
+
+}
+
+.text > .name, .developer{
+    color: white;
+    text-align: center;
+  
+
+}
+
+.text {
+    padding-top: 300px;
+    display: inline;
+    
+}
+
+.name{
+    padding-top: 400px;
+    font-size: 4em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.developer{
+    font-size: 1.5em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:  rgb(8, 148, 113);
+
+}
+
+.grey{
+   background-color: rgb(24, 23, 27);
+   height: 500px;
+   width: auto;
+   color:white;
+   
+}
+
+.build{font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+
+.contact{font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 5px;
+    font-style: italic;
+
+   }
+
+   .handles{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    padding-left: 30%;
+    width: 500px;
+    justify-content: space-between;
+    text-decoration: none;
+    text-decoration-style: none;
+    color: white;
+}
+
+.handle2{
+    display:flex ;
+    text-align: center;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 40%;
+    width: 250px;
+    justify-content: space-between;
+    text-decoration: none;
+    text-decoration-style: none;
+    color: white;
+   }
+
+
+   
+   hr{
+    margin-top: 100px;
+   }
+
+
+   .design {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+    font-style: italic;
+    color: white;
+    display: flex;
+    padding-left: 30%;
+    width: 500px;
+    justify-content: space-between;
+    padding-top: 20px;
+   }
